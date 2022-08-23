@@ -16,8 +16,10 @@ def upload():
     mytime = today.strftime('%Y-%m-%d-%H-%M-%S')  #날짜 시간을 원하는 형태로 변환
     filename = f'{mytime}.{extension}'  # 파일 이름
     save_to = f'/static/img/{filename}' # 파일 경로
-    test = os.path.abspath(__file__)    # ?
-    parent_path = Path(test).parent     # ?
-    abs_path = str(parent_path) + save_to 
+    # test = os.path.abspath(__file__)    # 절대경로
+
+    # (1)프론트엔드 폴더로 절대경로 수정!!!!!
+    abs_path = "D:/VSCode/project/frontend" + save_to
+    
     file.save(abs_path)                 # 파일 저장
     return jsonify({'result': 'success'})

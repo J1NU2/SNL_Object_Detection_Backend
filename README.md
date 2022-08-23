@@ -1,1 +1,3 @@
-# objectDetection_backend
+# SNL_Object_Detection_Backend
+Team_8_siktams_SNL_Object_Detection_Backend  
+https://github.com/wonbbnote/objectDetection_backend
