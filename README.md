@@ -30,7 +30,7 @@ SNL 연예인 닮은 꼴 찾기
 
 # 📚 기술 스택
 
-### Back-end
+### Backend
 
 > Python3  
 > Flask  
